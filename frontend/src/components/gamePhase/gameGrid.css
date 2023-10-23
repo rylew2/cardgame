@@ -1,0 +1,7 @@
+.game-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 6px;
+  min-height: 100vh;
+}

@@ -1,0 +1,19 @@
+/* fonts.css */
+
+@font-face {
+  font-family: 'Alfa Slab One';
+  src: url('./Alfa_Slab_One//AlfaSlabOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('./Courier_Prime/CourierPrime-Regular.ttf') format('truetype');
+}
+
+.alfa-slab-one-regular {
+  font-family: 'Alfa Slab One', sans-serif;
+}
+
+.courier-prime-regular {
+  font-family: 'Courier Prime', monospace;
+}

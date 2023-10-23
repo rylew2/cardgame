@@ -1,0 +1,84 @@
+@keyframes slideInFromTop0 {
+  0% {
+    opacity: 0;
+    transform: translate(0, -100vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-3rem, -3.25rem) rotate(12deg);
+  }
+}
+
+@keyframes slideInFromTop1 {
+  0% {
+    opacity: 0;
+    transform: translate(0, -100vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-1.5rem, -0.75rem) rotate(6deg);
+  }
+}
+
+@keyframes slideInFromTop2 {
+  0% {
+    opacity: 0;
+    transform: translate(0, -100vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes slideInFromTop3 {
+  0% {
+    opacity: 0;
+    transform: translate(0, -100vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(1.5rem, -0.75rem) rotate(-6deg);
+  }
+}
+
+@keyframes slideInFromTop4 {
+  0% {
+    opacity: 0;
+    transform: translate(0, -100vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(3rem, -3.25rem) rotate(-12deg);
+  }
+}
+
+.card-animation-0 {
+  animation: slideInFromTop0 0.5s ease 0ms forwards;
+}
+
+.card-animation-1 {
+  animation: slideInFromTop1 0.5s ease 25ms forwards;
+}
+
+.card-animation-2 {
+  animation: slideInFromTop2 0.5s ease 50ms forwards;
+}
+
+.card-animation-3 {
+  animation: slideInFromTop3 0.5s ease 75ms forwards;
+}
+
+.card-animation-4 {
+  animation: slideInFromTop4 0.5s ease 100ms forwards;
+}
+
+@media (max-width: 1185px) {
+  .card-animation-0,
+  .card-animation-1,
+  .card-animation-2,
+  .card-animation-3,
+  .card-animation-4 {
+    animation: none;
+  }
+}
